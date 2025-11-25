@@ -1,0 +1,12 @@
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+langgraph>=0.2.45
+langgraph-checkpoint-sqlite>=1.0.0
+langchain-community==0.3.7
+langchain-openai==0.3.0
+tavily-python==0.5.0
+pydantic==2.10.2
+python-dotenv==1.0.0
+beautifulsoup4==4.12.3
+requests==2.32.3
+aiosqlite==0.20.0
