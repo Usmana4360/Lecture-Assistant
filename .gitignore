@@ -1,0 +1,19 @@
+# Ignore node_modules everywhere
+node_modules/
+
+# Ignore Python virtual env
+venv/
+.env
+
+# Ignore backend logs/temp
+logs/
+temp/
+
+# Ignore build outputs
+dist/
+build/
+
+# Ignore OS/Editor files
+.DS_Store
+.vscode/
+__pycache__/
