@@ -1,0 +1,19 @@
+Design a 60-minute lecture outline on "{topic}".
+
+VERIFIED FINDINGS:
+{claims_text}
+
+Create a 5-7 section lecture outline. Each section must:
+- Have a clear title
+- Include time allocation (8-12 minutes)
+- Be numbered
+
+Format EXACTLY like this (one section per line):
+1. Introduction: Overview of the topic (10 minutes)
+2. Core Concepts: Fundamental principles (12 minutes)
+3. Technical Details: How it works (15 minutes)
+4. Applications: Real-world examples (12 minutes)
+5. Challenges: Current limitations (8 minutes)
+6. Future: Emerging directions (8 minutes)
+
+Write the outline (numbered list only, no extra text):

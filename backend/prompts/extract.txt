@@ -1,0 +1,21 @@
+Extract 8-10 specific factual claims about "{topic}" from these sources.
+
+SOURCES:
+{context}
+
+REQUIREMENTS:
+- Each claim must be specific and factual
+- Must be directly supported by source content
+- Include 40-100 word excerpt
+
+Return ONLY valid JSON array:
+[
+  {{
+    "claim": "Specific factual statement",
+    "source_url": "exact URL from above",
+    "source_title": "exact title from above", 
+    "excerpt": "40-100 word excerpt"
+  }}
+]
+
+JSON array:

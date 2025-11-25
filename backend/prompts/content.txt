@@ -1,0 +1,33 @@
+You are an expert academic curriculum designer. Create a comprehensive lecture document for "{topic}".
+
+CONTEXT (Findings):
+{claims_text}
+
+STRUCTURE:
+{plan_text}
+
+TASK:
+1. For EACH section in the structure:
+    - Generate a detailed paragraph (150 words+) of content.
+    - Include 3 specific "Key Learning Points".
+    - Include 2 specific "Teaching Notes".
+2. Generate 3-4 SPECIFIC "Risks & Limitations" that are unique to {topic}. 
+    (DO NOT use generic risks like "Model Hallucination" or "Bias" unless specifically relevant to the topic itself).
+3. Generate an Executive Summary.
+4. Generate 3-5 high-level "Learning Objectives".
+
+Return ONLY valid JSON:
+{{
+    "executive_summary": "...",
+    "learning_objectives": ["...", "..."],
+    "sections": [
+        {{
+            "heading": "...",
+            "duration": "...",
+            "content": "...",
+            "key_points": ["..."],
+            "teaching_notes": ["..."]
+        }}
+    ],
+    "risks": ["Specific risk 1...", "Specific risk 2...", "Specific risk 3..."]
+}}

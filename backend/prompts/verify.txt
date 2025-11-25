@@ -1,0 +1,21 @@
+You are a highly reliable fact-checker. Your task is to verify a specific claim using the provided source content.
+
+CLAIM: {claim}
+
+SOURCE CONTENT:
+{content}
+
+Analyze the SOURCE CONTENT and determine if the CLAIM is explicitly and unequivocally supported by the text.
+
+If the claim is supported:
+- Set VERDICT to YES.
+- Provide a direct, short EXCERPT from the SOURCE CONTENT that proves the claim.
+
+If the claim is not supported, is ambiguous, or is a matter of opinion:
+- Set VERDICT to NO.
+- Provide a REASONING explaining why the claim is not supported.
+
+FORMAT:
+VERDICT: YES or NO
+REASONING: [Your explanation]
+EXCERPT: [Relevant text if YES, empty if NO]
