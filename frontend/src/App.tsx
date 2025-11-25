@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { Play, CheckCircle, XCircle, AlertCircle, Loader2, FileText, Search, CheckSquare, BookOpen, Download } from 'lucide-react';
+import { Play, CheckCircle, XCircle, AlertCircle, Loader2, FileText, Search, CheckSquare, BookOpen } from 'lucide-react';
 
 // API Base URL - CRITICAL: Must match your backend
+
 const API_BASE = "https://lecture-assistant-backend.onrender.com";
 
 // Type definitions
