@@ -4,7 +4,8 @@ import { Play, CheckCircle, XCircle, AlertCircle, Loader2, FileText, Search, Che
 
 // API Base URL - CRITICAL: Must match your backend
 
-const API_BASE = "https://lecture-assistant-backend.onrender.com";
+const API_BASE = "https://lecture-assistant-sdxx.onrender.com/";
+
 
 // Type definitions
 interface ClaimWithSource {
