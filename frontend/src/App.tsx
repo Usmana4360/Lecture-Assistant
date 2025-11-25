@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Play, CheckCircle, XCircle, AlertCircle, Loader2, FileText, Search, CheckSquare, BookOpen, Download } from 'lucide-react';
 
 // API Base URL - CRITICAL: Must match your backend
-const API_BASE = 'http://127.0.0.1:8000';
+const API_BASE = "https://lecture-assistant-backend.onrender.com";
 
 // Type definitions
 interface ClaimWithSource {
