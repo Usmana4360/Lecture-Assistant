@@ -56,6 +56,10 @@ class FeedbackRequest(BaseModel):
     decision: str
     notes: Optional[str] = ""
 
+@app.get("/")
+def home():
+    return {"status": "ok", "message": "Lecture Assistant API is running!"}
+
 
 @app.post("/run")
 async def start_research(request: ResearchRequest):
